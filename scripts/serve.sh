@@ -6,7 +6,9 @@
 # Once the issue is fixed, this script can be replaced adding the following npm script:
 #
 #     "ionic:serve": "gulp watch & NODE_OPTIONS=--max-old-space-size=4096 ng serve"
-#
+
+# Ensure Gradle is in PATH for Cordova builds
+export PATH="/c/gradle/gradle-8.3/bin:$PATH"
 
 # Run gulp watch.
 echo "> gulp watch &"

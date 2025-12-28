@@ -87,7 +87,13 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": [
+        {
+            "name": "Inspire LMS",
+            "url": "https://inspirelms.sawtraxltd.com",
+            "alias": "Inspire LMS"
+        }
+    ],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
